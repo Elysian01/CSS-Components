@@ -81,3 +81,25 @@ body {
     margin-top: 15px;
     transition-delay: 0.5s;
 }
+
+.box .content a {
+    text-decoration: none;
+    color: #21ebff;
+    background-color: #000;
+    font-size: 16px;
+    padding: 8px 30px;
+    margin: 2px;
+    text-transform: uppercase;
+    overflow: hidden;
+    letter-spacing: 1px;
+    transition: 0.5s;
+    border: 2px solid #21ebff;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.box .content a:hover {
+    color: #21ebff;
+    background-color: #fff;
+}
